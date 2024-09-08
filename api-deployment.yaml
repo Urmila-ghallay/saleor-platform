@@ -32,7 +32,7 @@ spec:
                   key: CELERY_BROKER_URL
                   name: backend-env
             - name: DASHBOARD_URL
-              value: http://localhost:9002/
+              value: http://localhost:9000/
             - name: DATABASE_URL
               valueFrom:
                 configMapKeyRef:
