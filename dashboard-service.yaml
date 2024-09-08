@@ -8,6 +8,7 @@ metadata:
     io.kompose.service: dashboard
   name: dashboard
 spec:
+  type: LoadBalancer
   ports:
     - name: "9002"
       port: 9002
